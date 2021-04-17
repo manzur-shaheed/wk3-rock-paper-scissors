@@ -33,7 +33,7 @@
           </td>
         </tr>        
       </table>
-      <hr>
+      <!-- <hr> -->
       <table class="outer-table">
         <tr>
           <td>
@@ -44,23 +44,26 @@
           </td>
         </tr>
         <tr>
-          <td id="you">You</td>
-          <td id="computer">Computer</td>
+          <td id="you">&nbsp;</td>
+          <td id="computer">&nbsp;</td>
         </tr>
         <tr>
           <td>
             <table align=center>
-              <tr class="buttons">
-                <td><button class="choice" id="rock">Rock</button></td>
-                <td><button class="choice" id="paper">Paper</button></td>
-                <td><button class="choice" id="scissors">Scissors</button></td>
+              <tr>
+                <td><button class="buttons" id="rock" value="R">Rock</button></td>
+                <td><button class="buttons" id="paper" value="P">Paper</button></td>
+                <td><button class="buttons" id="scissors" value="S">Scissors</button></td>
               </tr>
             </table>
           </td>
         </tr>
+        <tr><td colspan=2><hr></td></tr>
+        <tr><td colspan=2><button class="buttons" id="reset">Reset</button></td></tr>
       </table>
     </div> 
   </div> 
+
   <script src="./assets/scripts/script.js"></script>
 </body>
 </html>

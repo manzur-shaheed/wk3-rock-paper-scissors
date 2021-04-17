@@ -7,34 +7,28 @@ var rock = document.querySelector("#rock");
 var paper = document.querySelector("#paper");
 var scissors = document.querySelector("#scissors");
 
-rock.addEventListener("click", function(event) {
-    document.getElementById("you").innerHTML = 'R';
-    alert('R');
+// event listeners
+rock.addEventListener("click", function() {
+    playGame(this.value);
 });
 
-paper.addEventListener("click", function(event) {
-    alert('P');
+paper.addEventListener("click", function() {
+    playGame(this.value);
 });
 
 scissors.addEventListener("click", function(event) {
-    alert('S');
+    playGame(this.value);
 });
 
-// get computers choice
+// Computer's Choice
 function getComputerChoice() {
-    return computerChoice[Math.floor(Math.random() * computerChoice.length)]
-
+    var choice = computerChoice[Math.floor(Math.random() * computerChoice.length)];
+    document.getElementById("computer").innerHTML = choice;
 }
-// get user input
-function getUserChoice() {
-    var userInput = '';
 
-    userInput = window.prompt("Enter R, P or S: ");
-
-    // validate
-    if (userInput) {
-        userInput = userInput.toUpperCase();
-
-    }
+// play game
+function playGame(yourChoice) {
+    document.getElementById("you").innerHTML = yourChoice;    
 }
+
 

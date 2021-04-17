@@ -28,8 +28,7 @@ header {
 .outer-table {
     text-align: center;
     color:dimgray; 
-    width: 100%;   
-    margin: 0 auto;
+    width: 100%;  
 }
 .header {
     margin: 0;
@@ -45,9 +44,14 @@ h2, h3, h4 {
 }
 .score-table {
     width: 100%;
+    border-bottom: 2px solid darkgray; 
+    border-top: 2px solid darkgray; 
+}
+hr {
+    border-top: 2px solid darkgray;
 }
 
-#rock, #paper, #scissors {
+.buttons {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -61,11 +65,11 @@ h2, h3, h4 {
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-#rock:hover, #paper:hover, #scissors:hover {
+.buttons:hover {
     background-color: rgba(255, 0, 0, 1);
 }
 
-#rock:active, #paper:active, #scissors:active {
+.buttons:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
