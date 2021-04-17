@@ -4,12 +4,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
-  <h1>Thanks for playing!</h1>
-  
-  <script src="./script.js"></script>
+  <div class=outer>
+    <header>
+      <h1>Rock, Paper, Scissors</h1>
+    </header>
+    <div class="container">
+      <table class="outer-table">
+        <th colspan=2><h2>Scoreboard</h2></th>
+        <tr>
+          <td>
+            <table class="score-table">
+              <tr>
+                <td><h3>Win</h3></td>
+                <td><h3>Loss</h3></td>
+                <td><h3>Tie</h3></td>
+              </tr>
+              <tr>
+                <td id="win">0</td>
+                <td id="loss">0</td>
+                <td id="tie">0</td>
+              </tr>
+            </table>
+          </td>
+        </tr>        
+      </table>
+      <hr>
+      <table class="outer-table">
+        <tr>
+          <td>
+            <h3>Your Selection</h3> 
+          </td>
+          <td>
+            <h3>Computer Selection</h3> 
+          </td>
+        </tr>
+        <tr>
+          <td id="you">You</td>
+          <td id="computer">Computer</td>
+        </tr>
+        <tr>
+          <td>
+            <table align=center>
+              <tr>
+                <td><button id="rock">Rock</button></td>
+                <td><button id="paper">Paper</button></td>
+                <td><button id="scissors">Scissors</button></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div> 
+  </div> 
+  <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
