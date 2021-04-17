@@ -1,70 +1,43 @@
 # wk3-rock-paper-scissors
-Rock, paper, scissors game using Javascript/HTML/CSS
+Rock, paper, scissors game using Javascript/HTML/CSS. This game is played by you agaist the computer. A scroboard shows current score and at the bottom it shows who is current winner. Reset button resets all score and winner.
 
 ## Getting Started
-Clone at 
-Live at: [github pages] 
+Code: [Code](https://github.com/manzur-shaheed/wk3-rock-paper-scissors)
+Live: [github pages](https://manzur-shaheed.github.io/wk3-rock-paper-scissors/)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You can clone code from [github link](https://github.com/manzur-shaheed/wk3-rock-paper-scissors) and run it locally on your computer.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+A computer with browser that supports javascript. To clone code from github, you need to have aceess to Internet. Also your computer should have Terminal (Unix) software installed. For Windows users, you can get it from https://www.cygwin.com/. For Mac users, it comes pre-installed with MacOS. 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+- Open a terminal.  
+- Create a directory for this project.
+- Change current directory to this project direcory.
+- Issue the following command -
 
 ```
-until finished
+git clone git@github.com:manzur-shaheed/wk3-rock-paper-scissors.git
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+You can then run this tool by opening index.html page from this directory in a browser.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+- Initial window 
+![initial_window](./assets/images/main_screen.png)
+
+Once you start clicking on ```Rock``` or ```Paper``` or ```Scissors```, computer will generate a random selection from one of these three choices and then compare against your choice and then make the decision on winner. Current score is shown in the scoreboard and current winner is shown in botton left of the main screen.
+
+![current_winner](./assets/images/current_winner.png)
+
+if you click on ```Reset``` Scoreboard is reset and Winner is set to blank.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Acknowledgments
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Billie Thompson** - [PurpleBooth](https://github.com/PurpleBooth) for the README Template.
