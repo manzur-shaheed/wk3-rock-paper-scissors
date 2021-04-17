@@ -29,11 +29,12 @@ header {
     text-align: center;
     color:dimgray; 
     width: 100%;   
+    margin: 0 auto;
 }
 .header {
     margin: 0;
 }
-table, td, th {
+table, td, th, tr, tbody {
     text-align: center;
 }
 h2, h3, h4 {
@@ -45,6 +46,7 @@ h2, h3, h4 {
 .score-table {
     width: 100%;
 }
+
 #rock, #paper, #scissors {
     border: 0;
     line-height: 2.5;
