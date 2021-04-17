@@ -42,6 +42,14 @@ h2, h3, h4 {
     width: 100%;
     text-shadow: 1px 1px 1px forestgreen;
 }
+
+#you, #computer {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    color:darkslategray;
+    text-shadow: 1px 1px 1px green;
+}
 .score-table {
     width: 100%;
     border-bottom: 2px solid darkgray; 
